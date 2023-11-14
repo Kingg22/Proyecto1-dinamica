@@ -1,4 +1,4 @@
-package clases;
+package cola;
 
 import javax.swing.JOptionPane;
 

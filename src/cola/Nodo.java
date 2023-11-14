@@ -1,4 +1,4 @@
-package clases;
+package cola;
 
 public class Nodo {
     int informacion;

@@ -17,7 +17,6 @@ public class Principal {
         Circular colaC = new Circular();
 
         do {
-            try {
                 opcion1 = JOptionPane.showOptionDialog(null, 
                 "                                                Menu Principal\n\n", 
                 "Estructura de datos", 
@@ -26,6 +25,7 @@ public class Principal {
                 null, 
                 opcion5, 
                 "");
+            try {
                 switch (opcion1) {
                     case 0:
                         JOptionPane.showMessageDialog(null, 

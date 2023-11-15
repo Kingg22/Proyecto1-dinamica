@@ -48,7 +48,7 @@ public class Cola {
             }
             return informacion;
         } else {
-            return Integer.MAX_VALUE;
+            return Integer.MIN_VALUE;
         }
     }
     

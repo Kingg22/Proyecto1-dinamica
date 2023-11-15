@@ -33,24 +33,24 @@ public class Pila {
         tamano--;
         return auxiliar;
     }
-    
+    /* 
     //Método para conocer cual es el último valor ingresado
     public int MostrarUltimoValorIngresado(){
         return UltimoValorIngresado.informacion;
     }
-    
+    */
     //Método para conocer el tamaño de la Pila
     public int TamanoPila(){
         return tamano;
     }
-    
+    /* 
     //Método para vaciar la Pila
     public void VaciarPila(){
         while (!PilaVacia()) {
             EliminarNodo();            
         }
     }
-    
+    */
     //Método para mostrar el contenido de la pila
     public void MostrarValores(){
         Nodo recorrido = UltimoValorIngresado;
@@ -59,7 +59,10 @@ public class Pila {
             Lista += recorrido.informacion + "\n";
             recorrido = recorrido.siguiente;
         }
-        JOptionPane.showMessageDialog(null, Lista);
+        JOptionPane.showMessageDialog(null, 
+        Lista + "Tope: " + TamanoPila(), 
+        "Pila", 
+        JOptionPane.PLAIN_MESSAGE);
         Lista = "";
     }
 }

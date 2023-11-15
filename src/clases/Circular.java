@@ -31,8 +31,18 @@ public class Circular {
         for (int i = cadena.length - 1; i >= 0; i--) {
             ColaCircularInvertida += " " +cadena[i];                    
         }
-        
-        JOptionPane.showMessageDialog(null, ColaCircularInvertida);
+        if (ColaCircularVacia())
+        {
+            JOptionPane.showMessageDialog(null, 
+            ColaCircularInvertida + "\nFrente: 0" + "\nFinal: 0",         
+            "Cola Simple", 
+            JOptionPane.PLAIN_MESSAGE);
+        } else {
+            JOptionPane.showMessageDialog(null, 
+            ColaCircularInvertida + "\nFrente: " + front.informacion + "\nFinal: " + back.informacion,         
+            "Cola Simple", 
+            JOptionPane.PLAIN_MESSAGE);
+        }
         ColaCircular = "";
         }
     }

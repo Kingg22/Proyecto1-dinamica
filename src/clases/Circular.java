@@ -71,12 +71,12 @@ public class Circular {
         {
             JOptionPane.showMessageDialog(null, 
             ColaCircularInvertida + "\nFrente: 0" + "\nFinal: 0",         
-            "Cola Simple", 
+            "Cola Circular", 
             JOptionPane.PLAIN_MESSAGE);
         } else {
             JOptionPane.showMessageDialog(null, 
             ColaCircularInvertida + "\nFrente: " + front.informacion + "\nFinal: " + back.informacion,         
-            "Cola Simple", 
+            "Cola Circular", 
             JOptionPane.PLAIN_MESSAGE);
         }
         ColaCircular = "";

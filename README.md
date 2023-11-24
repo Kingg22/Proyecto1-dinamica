@@ -1,3 +1,5 @@
+Este proyecto fue archivado porque se cambio la propuesta a estática y no se pretende seguir mejorando este código. 
+
 ## Definición del Problema
 
 Hola, en este proyecto se desea implementar las pilas, colas y colas circulares. Tiene que tener menu principal con las opciones: {presentación, operaciones con pila, operaciones con cola simple, operaciones con cola circular, salir}
